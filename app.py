@@ -193,7 +193,6 @@ st.markdown("""
             SUPERTONE Originals · 구독자 3.5만명 · 포스트 1.9천개
         </div>
         <div style="color: #999999;">
-            🔗 <a href="https://twitter.com/SUPERTONE" style="color: #999999;">https://twitter.com/SUPRETONE</a> 외 링크 2개
         </div>
     </div>
 </div>
@@ -214,70 +213,7 @@ with tab2:
     
     st.markdown("<h2 style='padding: 20px 40px 0 40px;'>시리즈 63개</h2>", unsafe_allow_html=True)
     
-    # 시리즈 데이터 (예시)
-    series_data = [
-        {
-            "title": "[GL] 2024 포스타입 앱솔로지 | 겨울",
-            "description": "첫눈이 모든 걸 덮는 순간, 둘만의 집은 열기로 채워지는 GL 단편선",
-            "episodes": "총 11화",
-            "views": "48만",
-            "likes": "7.6천",
-            "comments": "437",
-            "tags": ["성인", "웹툰", "단편", "gl", "겨울", "첫눈"],
-            "gradient": "linear-gradient(135deg, #434343 0%, #000000 100%)"
-        },
-        {
-            "title": "[GL] 분리수거 하다가 전여친 마주치는 만화",
-            "description": "분리수거에서 해어진 옛 연인과 마주친 확률은? 아파트 주민으로 재회한 두 여자의 새로 쓰여지는 이야기",
-            "episodes": "총 18화",
-            "views": "59만",
-            "likes": "1.4천",
-            "comments": "1.2천",
-            "tags": ["성인", "웹툰", "완성", "gl", "드라마", "재회물"],
-            "gradient": "linear-gradient(135deg, #2c3e50 0%, #34495e 100%)"
-        },
-        {
-            "title": "가상아이돌 김준의",
-            "description": "🎤아이돌<트루픽스>와 네덜도 팬 에군의 하이퍼리얼리즘 k-pop 팬덤 실태 보고서",
-            "episodes": "총 98화",
-            "views": "164만",
-            "likes": "3.3천",
-            "comments": "8.2천",
-            "tags": ["웹툰", "아이돌", "kpop", "현애계물", "팬덤"],
-            "gradient": "linear-gradient(135deg, #e91e63 0%, #f48fb1 100%)"
-        },
-        {
-            "title": "[BL] 2024 포스타입 앱솔로지 | 가을",
-            "description": "가을에 펼쳐진 화려한 축제, 2024 포스타입 가을 앱솔로지",
-            "episodes": "총 5화",
-            "views": "9.6만",
-            "likes": "1.3천",
-            "comments": "165",
-            "tags": ["성인", "웹툰", "bl", "가을", "축제"],
-            "gradient": "linear-gradient(135deg, #3a506b 0%, #5b7c99 100%)"
-        }
-    ]
-    
-    # 카드 그리드
-    cols = st.columns(2)
-    for idx, series in enumerate(series_data):
-        with cols[idx % 2]:
-            st.markdown(f"""
-            <div class="card">
-                <div class="card-image" style="background: {series['gradient']};"></div>
-                <div class="card-content">
-                    <div class="card-title">{series['title']}</div>
-                    <div class="card-description">{series['description']}</div>
-                    <div class="card-stats">
-                        <span>{series['episodes']}</span>
-                        <span>👁 {series['views']}</span>
-                        <span>❤️ {series['likes']}</span>
-                        <span>💬 {series['comments']}</span>
-                    </div>
-                    <div class="card-tags">
-                        {''.join([f'<span class="tag tag-{tag if tag == "성인" else ""}">{tag}</span>' for tag in series['tags']])}
-                    </div>
-                </div>
-            </div>
-            """, unsafe_allow_html=True)
-            st.markdown("<br>", unsafe_allow_html=True)
+   
+         
+          
+                
