@@ -1,7 +1,7 @@
 import streamlit as st
 
 # 페이지 설정
-st.set_page_config(page_title="포스타입 오리지널", layout="wide", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="SUPERTONE Originals", layout="wide", initial_sidebar_state="collapsed")
 
 # CSS 스타일
 st.markdown("""
