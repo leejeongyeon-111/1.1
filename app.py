@@ -188,12 +188,12 @@ st.markdown("""
 <div class="profile-section">
     <div class="profile-image">IP</div>
     <div class="profile-info">
-        <h1>포스타입 오리지널</h1>
+        <h1>SUPERTONE Originals</h1>
         <div class="profile-stats">
-            포스타입 오리지널 · 구독자 3.5만명 · 포스트 1.9천개
+            SUPERTONE Originals · 구독자 3.5만명 · 포스트 1.9천개
         </div>
         <div style="color: #999999;">
-            🔗 <a href="https://twitter.com/postype" style="color: #999999;">https://twitter.com/postype</a> 외 링크 2개
+            🔗 <a href="https://twitter.com/SUPERTONE" style="color: #999999;">https://twitter.com/SUPRETONE</a> 외 링크 2개
         </div>
     </div>
 </div>
